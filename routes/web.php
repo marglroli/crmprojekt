@@ -22,4 +22,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('users',[UserController::class, 'show']);
+Route::view('/new_user','new_user');
+Route::post('new_user',[UserController::class,'addData']);
+
+Route::get('/users',[UserController::class, 'show']);
