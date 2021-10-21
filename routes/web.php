@@ -19,6 +19,10 @@ Route::get('/login', function () {
 });
 
 Route::get('/', function () {
+    return view('login_home');
+});
+
+Route::get('/index', function () {
     return view('index');
 });
 
