@@ -114,7 +114,7 @@
                             <input type="password" class="form-control" placeholder="Your password here...">
                         </div>
                         <button type="submit" class="btn btn-black">Login</button>
-                        <button type="submit" class="btn btn-secondary">Register</button>              
+                        <button type="submit" class="btn btn-secondary">Register a new employee</button>              
             </div>
         </div>
     </div>

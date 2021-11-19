@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +21,9 @@ Route::get('/', function () {
 Route::get('/layout', function () {
     return view('layout');
 });
+
+Route::get('/new_customer', function () {
+    return view('new_customer');
+});
+
+Route::post('register',[CustomerController::class,'register']);

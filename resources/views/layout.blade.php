@@ -79,14 +79,6 @@
     </style>
 </head>
 <body>
-    <div class="top-container">
-        <div>
-            <span class="top-bar-text">CRM SYSTEM</span>
-        </div>
-        <div>
-            <div class="top-bar-text">username</div>
-        </div>
-    </div>
     <div class="sidenav">
         <div>
             <img class="pic" height="100" src="https://avatarfiles.alphacoders.com/105/105223.jpg">
