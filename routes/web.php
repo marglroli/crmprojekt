@@ -14,19 +14,10 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/login', function () {
-    return view('welcome');
-});
-
 Route::get('/', function () {
     return view('login_home');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/layout', function () {
+    return view('layout');
 });
-
-Route::view('/new_user','new_user');
-Route::post('new_user',[UserController::class,'addData']);
-
-Route::get('/users',[UserController::class, 'show']);

@@ -81,6 +81,8 @@
         .mainimg{
             border-radius: 30px;
         }
+        
+
     </style>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -101,20 +103,18 @@
     </div>
     <div class="main">
         <div class="col-md-6 col-sm-12">
-            <div class="login-form">
-                <form>
-                <img src="https://www.efficy.com/wp-content/uploads/2019/03/crm-modules.jpg" class="mainimg">
-                    <div class="form-group">
-                        <label class="mt-5">Email address</label>
-                        <input type="text" class="form-control" placeholder="Write your email here....">
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Your password here...">
-                    </div>
-                    <button type="submit" class="btn btn-black">Login</button>
-                    <button type="submit" class="btn btn-secondary">Register</button>
-                </form>
+            <div class="login-form">    
+                        <img src="https://www.efficy.com/wp-content/uploads/2019/03/crm-modules.jpg" class="mainimg">
+                        <div class="form-group">
+                            <label class="mt-5">Email address</label>
+                            <input type="text" class="form-control" placeholder="Write your email here....">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" placeholder="Your password here...">
+                        </div>
+                        <button type="submit" class="btn btn-black">Login</button>
+                        <button type="submit" class="btn btn-secondary">Register</button>              
             </div>
         </div>
     </div>

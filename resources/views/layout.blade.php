@@ -91,10 +91,10 @@
         <div>
             <img class="pic" height="100" src="https://avatarfiles.alphacoders.com/105/105223.jpg">
         </div>
-        <a href="/users">Users</a>
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
+        <a href="">Users</a>
+        <a href="">Services</a>
+        <a href="">Clients</a>
+        <a href="">Contact</a>
     </div>
     <div class="main">
         @yield('main_content')
